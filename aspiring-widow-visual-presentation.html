@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASPIRING WIDOW™ - AI Visual Content Guide</title>
+  <style>
+    /* Global Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    
+    body {
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      line-height: 1.6;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    /* Typography */
+    h1 {
+      font-size: 48px;
+      font-weight: 300;
+      letter-spacing: 5px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    
+    h2 {
+      font-size: 28px;
+      font-weight: 300;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+      color: #c9b37e; /* Gold accent */
+    }
+    
+    h3 {
+      font-size: 22px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+    
+    h4 {
+      font-size: 18px;
+      font-weight: 500;
+      margin: 20px 0 10px;
+      color: #c9b37e; /* Gold accent */
+    }
+    
+    p {
+      margin-bottom: 20px;
+      font-weight: 300;
+    }
+    
+    /* Slide Structure */
+    .slide {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px 0;
+      border-bottom: 1px solid #333;
+    }
+    
+    /* Cover Slide */
+    .cover {
+      text-align: center;
+    }
+    
+    .logo {
+      width: 150px;
+      height: 150px;
+      border: 2px solid #c9b37e;
+      border-radius: 50%;
+      margin: 0 auto 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      font-weight: 200;
+      letter-spacing: 3px;
+    }
+    
+    .tagline {
+      font-style: italic;
+      margin: 30px 0;
+      color: #c9b37e;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+    
+    /* Brand Overview */
+    .brand-elements {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 40px 0;
+    }
+    
+    .brand-element {
+      width: 48%;
+      margin-bottom: 40px;
+    }
+    
+    /* Color Palette */
+    .color-palette {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0 40px;
+    }
+    
+    .color {
+      width: 22%;
+      height: 100px;
+      border-radius: 5px;
+      position: relative;
+    }
+    
+    .color-name {
+      position: absolute;
+      bottom: -30px;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+    
+    /* Prompt Cards */
+    .prompt-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .prompt-card {
+      width: 100%;
+      background-color: #1a1a1a;
+      padding: 30px;
+      margin-bottom: 40px;
+      border-left: 4px solid #c9b37e;
+    }
+    
+    .prompt-text {
+      font-style: italic;
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+    
+    .use-case, .styling-tags {
+      font-size: 14px;
+      margin-top: 15px;
+    }
+    
+    .tag {
+      display: inline-block;
+      background-color: #333;
+      padding: 5px 10px;
+      margin: 5px 5px 5px 0;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+    
+    /* Checklist */
+    .checklist {
+      margin: 30px 0;
+    }
+    
+    .checklist-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 15px;
+    }
+    
+    .check {
+      color: #c9b37e;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+    
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 60px 0 30px;
+      color: #666;
+      font-size: 14px;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .brand-element, .color {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      
+      .color-palette {
+        flex-direction: column;
+      }
+      
+      .prompt-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Cover Slide -->
+  <section class="slide cover">
+    <div class="container">
+      <div class="logo">AW</div>
+      <h1>ASPIRING WIDOW™</h1>
+      <h2>AI Visual Content Guide for DALL·E Generation</h2>
+      <p class="tagline">"Not everything is left behind. Some things are left for you."</p>
+    </div>
+  </section>
+  
+  <!-- Brand Aesthetic Overview -->
+  <section class="slide">
+    <div class="container">
+      <h3>Brand Aesthetic Overview</h3>
+      
+      <div class="brand-elements">
+        <div class="brand-element">
+          <h4>Visual Tone & Style</h4>
+          <ul>
+            <li>Cinematic, monochrome, fashion-editorial lighting</li>
+            <li>Moody, controlled elegance</li>
+            <li>Minimalism with emotional depth</li>
+            <li>Inspired by The Row, Saint Laurent, and quiet wealth</li>
+          </ul>
+        </div>
+        
+        <div class="brand-element">
+          <h4>Lighting Keywords</h4>
+          <ul>
+            <li>Golden hour</li>
+            <li>Sharp shadows</li>
+            <li>Studio flash</li>
+            <li>Natural soft backlight</li>
+          </ul>
+        </div>
+      </div>
+      
+      <h4>Color Palette</h4>
+      <div class="color-palette">
+        <div class="color" style="background-color: #0f0f0f;">
+          <div class="color-name">Noir (matte black)</div>
+        </div>
+        <div class="color" style="background-color: #f5f5f0;">
+          <div class="color-name" style="color: #0f0f0f;">Bone white</div>
+        </div>
+        <div class="color" style="background-color: #1e2a3d;">
+          <div class="color-name">Estate navy</div>
+        </div>
+        <div class="color" style="background-color: #c9b37e;">
+          <div class="color-name" style="color: #0f0f0f;">Soft gold</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- DALL·E Style Guide -->
+  <section class="slide">
+    <div class="container">
+      <h3>DALL·E Style Guide</h3>
+      <h4>Prompt Formatting Tips</h4>
+      
+      <div class="prompt-card">
+        <p>Add these elements to create consistent brand imagery:</p>
+        <ul>
+          <li>Style tags: "editorial fashion photography," "35mm lens," "cinematic lighting," "muted tones," "gender-neutral model"</li>
+          <li>Specific backdrops: "marble wall," "luxury hotel," "private gym," "velvet armchair"</li>
+          <li>Mood indicators: "quiet luxury," "rich in silence," "subtle wealth"</li>
+          <li>Technical specifications: "shallow depth of field," "high contrast," "3/4 shot," "overhead view"</li>
+          <li>Lighting descriptions: "golden hour," "dramatic shadows," "low-key lighting," "soft natural light"</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 1 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 1: The Uniform – Editorial Look</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="The Uniform – Editorial Look" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">A tall, androgynous model wearing a washed black oversized crewneck sweatshirt and wide-leg black trousers, standing alone in front of a marble wall. The model is wearing black sunglasses and gold rings, hands in pockets. High fashion editorial photography style, 3/4 body shot, cinematic shadows, dramatic soft light, quiet wealth aesthetic.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Hero image, homepage, social
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">cinematic shadows</span>
+            <span class="tag">dramatic soft light</span>
+            <span class="tag">35mm photography</span>
+            <span class="tag">quiet luxury</span>
+            <span class="tag">editorial fashion</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 2 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 2: Private Practice – Gym Noir</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="Private Practice – Gym Noir" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Genderless model with athletic build wearing black high-rise leggings and a matte crop tank with subtle branding, stretching in a dimly lit private gym with mirrored walls and leather equipment. Low angle shot, gold bracelet visible, candle burning in the corner. Cinematic fitness editorial, minimalist luxury.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Activewear product page, lookbook
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">dimly lit</span>
+            <span class="tag">low angle shot</span>
+            <span class="tag">cinematic fitness</span>
+            <span class="tag">minimalist luxury</span>
+            <span class="tag">moody contrast</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 3 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 3: The Morning After – Bedding Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="The Morning After – Bedding Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Unmade bed with rumpled luxury black linen sheets and bone-white duvet, half-falling off the bed frame. Morning light streaming through sheer curtains, creating shadows across the textured bedding. Black silk pajama top draped over the corner of the bed. Cinematic bedroom editorial, elegant disarray.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Bedding collection, homepage feature
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">morning light</span>
+            <span class="tag">elegant disarray</span>
+            <span class="tag">textural focus</span>
+            <span class="tag">cinematic bedroom</span>
+            <span class="tag">luxury fabrics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 4 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 4: The Essentials – Product Flatlay</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="The Essentials – Product Flatlay" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Overhead flatlay on black marble surface featuring minimalist black leather card holder, matte black watch with gold accents, black sunglasses with thin metal frames, single gold ring, and a small black candle. High-contrast studio lighting with subtle shadows. Luxury product photography, meticulous arrangement.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Accessories category page, product detail
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">overhead flatlay</span>
+            <span class="tag">high-contrast studio lighting</span>
+            <span class="tag">meticulous arrangement</span>
+            <span class="tag">luxury product photography</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 5 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 5: Hotel Confidential – Loungewear Moment</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="Hotel Confidential – Loungewear Moment" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Figure in black silk pajamas lounging on a navy velvet sofa in a luxury hotel suite, reading a hardcover book. Soft natural light from floor-to-ceiling windows, city skyline visible but blurred in background. One leg elegantly extended, gold anklet visible. Cinematic intimacy, quiet luxury.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Loungewear collection, lifestyle imagery
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">soft natural light</span>
+            <span class="tag">cinematic intimacy</span>
+            <span class="tag">quiet luxury</span>
+            <span class="tag">elegant pose</span>
+            <span class="tag">lifestyle editorial</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 6 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 6: The Statement Piece – Jewelry Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="The Statement Piece – Jewelry Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Extreme close-up of elegant hands with short matte black nails holding a large architectural gold ring. Dramatic studio lighting creating strong shadows, black backdrop, shallow depth of field focusing on the textured gold surface. Luxury jewelry campaign aesthetic.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Jewelry product pages, detail shots
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">extreme close-up</span>
+            <span class="tag">dramatic studio lighting</span>
+            <span class="tag">shallow depth of field</span>
+            <span class="tag">luxury jewelry campaign</span>
+            <span class="tag">textural focus</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 7 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 7: Evening Affairs – Cocktail Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="Evening Affairs – Cocktail Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Close-up shot of two crystal cocktail glasses with black liquid and gold garnish on a glossy black bar top. One glass has a lipstick mark on the rim. Low-key lighting with a single spotlight creating reflections on the glass surface. Moody bar atmosphere, luxury nightlife editorial.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Lifestyle content, social media
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">close-up shot</span>
+            <span class="tag">low-key lighting</span>
+            <span class="tag">single spotlight</span>
+            <span class="tag">luxury nightlife editorial</span>
+            <span class="tag">reflective surfaces</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 8 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 8: The Library – Home Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="The Library – Home Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Modern minimalist home library with floor-to-ceiling black bookshelves, leather armchair in bone white, and a small brass reading lamp casting warm light. A black cashmere throw is draped over the chair arm. Golden hour light streams through tall windows creating dramatic shadows on the wooden floor. Architectural digest aesthetic.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Home collection, lifestyle imagery
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">golden hour light</span>
+            <span class="tag">dramatic shadows</span>
+            <span class="tag">architectural digest aesthetic</span>
+            <span class="tag">minimalist luxury</span>
+            <span class="tag">warm accents</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 9 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 9: Morning Ritual – Wellness Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="Morning Ritual – Wellness Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Sleek black kettlebell on a marble bathroom floor beside a folded black towel and minimalist water bottle. Steam visible in the air, suggesting a post-workout moment. Soft natural light from a frosted window, creating gentle highlights on the marble veining. Luxury fitness lifestyle photography.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Wellness collection, lifestyle imagery
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">soft natural light</span>
+            <span class="tag">gentle highlights</span>
+            <span class="tag">luxury fitness lifestyle</span>
+            <span class="tag">minimal composition</span>
+            <span class="tag">morning atmosphere</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 10 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 10: The Archive – Studio Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="The Archive – Studio Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Designer's workspace with black drafting table, mood board with black and white fashion tearsheets pinned to wall, and a half-finished garment on a dress form. Strong directional studio lighting creating dramatic shadows. Gold scissors and measuring tape as accents. Fashion atelier photography, creative process documentary style.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Brand story, behind-the-scenes content
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">strong directional studio lighting</span>
+            <span class="tag">dramatic shadows</span>
+            <span class="tag">fashion atelier photography</span>
+            <span class="tag">documentary style</span>
+            <span class="tag">creative process</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 11 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 11: Weekend Escape – Travel Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="Weekend Escape – Travel Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Black leather weekend bag placed on white hotel bed, partially unpacked with glimpses of black and navy folded garments. Hotel room bathed in sunset light creating golden highlights on metallic zippers and luggage tag. Luxury travel photography, cinematic framing.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Travel collection, lifestyle content
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">sunset light</span>
+            <span class="tag">golden highlights</span>
+            <span class="tag">luxury travel photography</span>
+            <span class="tag">cinematic framing</span>
+            <span class="tag">lifestyle story</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 12 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 12: The Art of Dressing – Wardrobe Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="The Art of Dressing – Wardrobe Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Minimalist walk-in closet with curated rack of black, white and navy garments arranged by shade. Spotlight lighting highlighting textures and fabrics. Single gold hanger holding a statement black jacket in focus, rest of wardrobe slightly blurred. Luxury fashion editorial, capsule wardrobe aesthetic.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Capsule collection, styling guide
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">spotlight lighting</span>
+            <span class="tag">texture focus</span>
+            <span class="tag">luxury fashion editorial</span>
+            <span class="tag">capsule wardrobe aesthetic</span>
+            <span class="tag">minimalist composition</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 13 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 13: Vestiges – Objects Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="Vestiges – Objects Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Still life of personal objects on black marble surface: vintage silver lighter, leather-bound notebook, half-empty bottle of amber perfume, and a single black pearl earring. Dramatic side lighting creating long shadows. Moody fine art photography with nostalgic quality.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Accessories, brand story
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">dramatic side lighting</span>
+            <span class="tag">long shadows</span>
+            <span class="tag">moody fine art photography</span>
+            <span class="tag">nostalgic quality</span>
+            <span class="tag">elegant composition</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 14 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 14: The Aftermath – Table Editorial</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="The Aftermath – Table Editorial" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Morning-after dinner party scene with black linen tablecloth, empty wine glasses, burnt-down candles, and scattered gold cutlery. One napkin fallen to floor, chair pushed back. Low-contrast morning light creating soft shadows. Cinematic storytelling, quiet drama.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Home collection, lifestyle imagery
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">low-contrast morning light</span>
+            <span class="tag">soft shadows</span>
+            <span class="tag">cinematic storytelling</span>
+            <span class="tag">quiet drama</span>
+            <span class="tag">morning-after aesthetic</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Prompt 15 -->
+  <section class="slide">
+    <div class="container">
+      <h3>Prompt 15: The Insignia – Brand Detail</h3>
+      
+      <div class="prompt-card">
+        <div class="placeholder-image">
+          <img src="/api/placeholder/800/500" alt="The Insignia – Brand Detail" />
+        </div>
+        
+        <h4>Prompt:</h4>
+        <p class="prompt-text">Extreme macro shot of gold embossed logo on matte black leather surface. Strong directional lighting creating crisp shadow definition on the textured details. Black background fading to shadows. Luxury brand identity photography, craftsmanship focus.</p>
+        
+        <div class="use-case">
+          <strong>Use Case:</strong> Brand identity, detail imagery
+        </div>
+        
+        <div class="styling-tags">
+          <strong>Suggested Styling Tags:</strong>
+          <div class="tags">
+            <span class="tag">extreme macro shot</span>
+            <span class="tag">strong directional lighting</span>
+            <span class="tag">crisp shadow definition</span>
+            <span class="tag">luxury brand identity</span>
+            <span class="tag">craftsmanship focus</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Visual Consistency Checklist -->
+  <section class="slide">
+    <div class="container">
+      <h3>Visual Consistency Checklist</h3>
+      
+      <div class="checklist">
+        <div class="checklist-item">
+          <span class="check">✓</span>
+          <p>Use the same lighting style across all looks</p>
+        </div>
+        <div class="checklist-item">
+          <span class="check">✓</span>
+          <p>Keep poses minimal, still, and powerful</p>
+        </div>
+        <div class="checklist-item">
+          <span class="check">✓</span>
+          <p>Avoid smiley or casual facial expressions</p>
+        </div>
+        <div class="checklist-item">
+          <span class="check">✓</span>
+          <p>Use consistent tones: black, bone, navy, silver/gold</p>
+        </div>
+        <div class="checklist-item">
+          <span class="check">✓</span>
+          <p>Save your best images into a master campaign folder</p>
+        </div>
+        <div class="checklist-item">
+          <span class="check">✓</span>
+          <p>Edit with desaturation or film grain for editorial polish</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
